@@ -159,13 +159,15 @@ I add these to my PowerShell profile so I can use them whenever I need
 function genpin {
     $digits = 0..9; 
     $randomDigits = $digits | Get-Random -Count 8; 
-    $randomNumber = -join $randomDigits | Set-Clipboard;Write-Host "Copied to clipboard" -ForegroundColor Green
+    $randomNumber = -join $randomDigits | Set-Clipboard;  
+    Write-Host "Copied to clipboard" -ForegroundColor Green   
 }
 
 # Generate 16 character random secure password
 function genpass {
     Add-Type -AssemblyName System.Web; 
-    [System.Web.Security.Membership]::GeneratePassword(16, 4) | Set-Clipboard;Write-Host "Copied to clipboard" -ForegroundColor Green
+    [System.Web.Security.Membership]::GeneratePassword(16, 4) | Set-Clipboard;  
+    Write-Host "Copied to clipboard" -ForegroundColor Green
 }
 
 # Generate Office 365 style password 
@@ -176,7 +178,8 @@ function gen365 {
     $lowercaseLetters = $lowercaseLetters.ToLower()
     $numbers = -join (0..9 | Get-Random -Count 5)
     $password = "$randomCapitalLetter$lowercaseLetters$numbers"  
-    $password | Set-Clipboard;Write-Host "Copied to clipboard" -ForegroundColor Green
+    $password | Set-Clipboard;
+    Write-Host "Copied to clipboard" -ForegroundColor Green  
 }
 
 # Generate a "Correct_Horse_Battery_Staple" style password
