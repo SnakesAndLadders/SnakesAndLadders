@@ -1,6 +1,6 @@
 ## Artifice & Nack Blog
 Everyone is doing it so I guess I should. Here are some blog posts. Don't expect there to be any reasoning behind the topics, I am all over the place.  
-- [PowerShell Daily Drivers](https://github.com/SnakesAndLadders/SnakesAndLadders/blob/main/PowerShell%20Daily%20Drivers.md#powershell-commands-i-have-found-handy)
+
 
 <!--
 **SnakesAndLadders/SnakesAndLadders** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
