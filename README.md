@@ -1,5 +1,6 @@
 ## Artifice & Nack Blog
 Everyone is doing it so I guess I should. Here are some blog posts. Don't expect there to be any reasoning behind the topics, I am all over the place.  
+- [PowerShell Daily Drivers](https://blog.mcrafts.net/2025-05-14-PowerShell-Daily-Drivers)
 
 
 <!--
